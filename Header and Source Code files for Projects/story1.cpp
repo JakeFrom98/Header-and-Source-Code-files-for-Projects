@@ -1,11 +1,10 @@
-#include "pch.h"
-#include "main.cpp"
-#include "story1.h"
 #include <string>
 #include <iostream>
 #include <cstdlib>
 
 using namespace std;
+
+extern int sanity; // Gives access to global variable in main
 
 void story1() // First story function
 {
